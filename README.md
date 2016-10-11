@@ -8,7 +8,7 @@ i.v.m. MSTest:
 
 - Welke Assert-methods worden naast `Assert.AreEqual` nog allemaal gebruikt?
 
->Assert.IsTrue en Assert.IsFalse.
+> Assert.IsTrue en Assert.IsFalse.
 
 - Waarom heeft `TestDirectories` een `Initialize`- en `CleanUp`-method?
 
