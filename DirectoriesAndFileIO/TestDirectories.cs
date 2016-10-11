@@ -7,7 +7,6 @@ namespace DirectoriesAndFileIO
     [TestClass]
     public class TestDirectories
     {
-        [TestInitialize]
         public void Initialize()
         {
             if (Directory.Exists("testDir"))
@@ -16,7 +15,7 @@ namespace DirectoriesAndFileIO
             }
         }
 
-        [TestCleanup]
+       
         public void CleanUp()
         {
             if (Directory.Exists("testDir"))
@@ -25,7 +24,7 @@ namespace DirectoriesAndFileIO
             }
         }
 
-        [TestMethod]
+      
         public void TestCreateAndDeleteDirectory()
         {
             DirectoryInfo dir = Directory.CreateDirectory("testDir");
